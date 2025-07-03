@@ -24,3 +24,20 @@ Model CNN dirancang untuk melakukan feature extraction dari gambar dan melakukan
 
 ## 📁 Struktur Direktori
 
+CNN-Cat-Dog-Classification/
+│
+├── dataset/
+│ ├── train/
+│ │ ├── cat.0.jpg
+│ │ ├── dog.1.jpg
+│ │ └── ...
+│ └── test/
+│ ├── 1000.jpg
+│ └── ...
+│
+├── model/
+│ └── cat_dog_cnn_model.h5 # File model hasil training
+│
+├── cat_dog_classifier.ipynb # Notebook utama
+├── requirements.txt # Library yang dibutuhkan
+└── README.md # Dokumentasi proyek
